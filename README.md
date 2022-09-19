@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Git Crawler
 
-Things you may want to cover:
+Crawler that pulls data from Githubs Trending page.
 
-* Ruby version
+App created with a React frontend, and a Ruby on Rails backend.
 
-* System dependencies
+## Tools used
 
-* Configuration
+![Ruby](https://img.shields.io/badge/-Ruby-black?style=flat-square&logo=Ruby)
+![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql)
 
-* Database creation
+## Ruby Version
 
-* Database initialization
+Ruby version 2.7.3
 
-* How to run the test suite
+## Installation
+* Run ```yarn install```
+* Run ```bundle install```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Starting the server
+* Run ```yarn start``` to start the server
+* Run ```rails s``` to start the React front-end
 
-* Deployment instructions
+## Database creation
+* ```bundle exec rake db:create```
+* ```bundle exec rake db:migrate```
+* ```bundle exec rake db:seed```
 
-* ...
+
+# Features
+* Each post renders it's own tile.
+<img width="1024" alt="Screen Shot 2022-09-19 at 2 13 45 PM" src="https://user-images.githubusercontent.com/38561548/191085862-8ef86741-490e-4b67-8969-5f2c5a09f36e.png">
+
+# Authors
+* Bryan Genest
