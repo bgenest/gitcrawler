@@ -2,7 +2,7 @@ import React from "react";
 
 const PostComponent =(props)=>{
   return (
-    <div>
+    <div  className="card">
       <p>Name: {props.name}</p>
       <p>Description: {props.description}</p>
       <p>Language: {props.language}</p>
