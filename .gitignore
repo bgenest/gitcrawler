@@ -21,6 +21,7 @@
 .byebug_history
 
 yarn.lock
+Gemfile.lock
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
