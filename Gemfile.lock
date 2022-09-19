@@ -120,6 +120,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.4.2)
     pry (0.14.1)
@@ -128,7 +130,8 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (4.0.7)
-    puma (3.12.6)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
     rack-proxy (0.7.2)
@@ -236,6 +239,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   capybara
@@ -250,7 +254,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry-rails
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 5.2.5)
   rspec-rails (= 3.8.2)
   sass-rails (~> 5.0)
